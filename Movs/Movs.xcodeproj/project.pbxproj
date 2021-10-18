@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE768EF7271DC33100A4E4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768EF6271DC33100A4E4CF /* AppDelegate.swift */; };
+		BE768EF9271DC33100A4E4CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768EF8271DC33100A4E4CF /* SceneDelegate.swift */; };
+		BE768EFB271DC33100A4E4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768EFA271DC33100A4E4CF /* ViewController.swift */; };
+		BE768EFE271DC33100A4E4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE768EFC271DC33100A4E4CF /* Main.storyboard */; };
+		BE768F01271DC33100A4E4CF /* Movs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE768EFF271DC33100A4E4CF /* Movs.xcdatamodeld */; };
+		BE768F03271DC33400A4E4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE768F02271DC33400A4E4CF /* Assets.xcassets */; };
+		BE768F06271DC33400A4E4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE768F04271DC33400A4E4CF /* LaunchScreen.storyboard */; };
+		BE768F11271DC33400A4E4CF /* MovsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768F10271DC33400A4E4CF /* MovsTests.swift */; };
+		BE768F1B271DC33400A4E4CF /* MovsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768F1A271DC33400A4E4CF /* MovsUITests.swift */; };
+		BE768F1D271DC33500A4E4CF /* MovsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE768F1C271DC33500A4E4CF /* MovsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE768F0D271DC33400A4E4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE768EEB271DC33100A4E4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE768EF2271DC33100A4E4CF;
+			remoteInfo = Movs;
+		};
+		BE768F17271DC33400A4E4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE768EEB271DC33100A4E4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE768EF2271DC33100A4E4CF;
+			remoteInfo = Movs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE768EF3271DC33100A4E4CF /* Movs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE768EF6271DC33100A4E4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE768EF8271DC33100A4E4CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE768EFA271DC33100A4E4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE768EFD271DC33100A4E4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE768F00271DC33100A4E4CF /* Movs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movs.xcdatamodel; sourceTree = "<group>"; };
+		BE768F02271DC33400A4E4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE768F05271DC33400A4E4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE768F07271DC33400A4E4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE768F0C271DC33400A4E4CF /* MovsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE768F10271DC33400A4E4CF /* MovsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovsTests.swift; sourceTree = "<group>"; };
+		BE768F16271DC33400A4E4CF /* MovsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE768F1A271DC33400A4E4CF /* MovsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovsUITests.swift; sourceTree = "<group>"; };
+		BE768F1C271DC33500A4E4CF /* MovsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE768EF0271DC33100A4E4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE768F09271DC33400A4E4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE768F13271DC33400A4E4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE768EEA271DC33100A4E4CF = {
+			isa = PBXGroup;
+			children = (
+				BE768EF5271DC33100A4E4CF /* Movs */,
+				BE768F0F271DC33400A4E4CF /* MovsTests */,
+				BE768F19271DC33400A4E4CF /* MovsUITests */,
+				BE768EF4271DC33100A4E4CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE768EF4271DC33100A4E4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE768EF3271DC33100A4E4CF /* Movs.app */,
+				BE768F0C271DC33400A4E4CF /* MovsTests.xctest */,
+				BE768F16271DC33400A4E4CF /* MovsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE768EF5271DC33100A4E4CF /* Movs */ = {
+			isa = PBXGroup;
+			children = (
+				BE768EF6271DC33100A4E4CF /* AppDelegate.swift */,
+				BE768EF8271DC33100A4E4CF /* SceneDelegate.swift */,
+				BE768EFA271DC33100A4E4CF /* ViewController.swift */,
+				BE768EFC271DC33100A4E4CF /* Main.storyboard */,
+				BE768F02271DC33400A4E4CF /* Assets.xcassets */,
+				BE768F04271DC33400A4E4CF /* LaunchScreen.storyboard */,
+				BE768F07271DC33400A4E4CF /* Info.plist */,
+				BE768EFF271DC33100A4E4CF /* Movs.xcdatamodeld */,
+			);
+			path = Movs;
+			sourceTree = "<group>";
+		};
+		BE768F0F271DC33400A4E4CF /* MovsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE768F10271DC33400A4E4CF /* MovsTests.swift */,
+			);
+			path = MovsTests;
+			sourceTree = "<group>";
+		};
+		BE768F19271DC33400A4E4CF /* MovsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE768F1A271DC33400A4E4CF /* MovsUITests.swift */,
+				BE768F1C271DC33500A4E4CF /* MovsUITestsLaunchTests.swift */,
+			);
+			path = MovsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE768EF2271DC33100A4E4CF /* Movs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE768F20271DC33500A4E4CF /* Build configuration list for PBXNativeTarget "Movs" */;
+			buildPhases = (
+				BE768EEF271DC33100A4E4CF /* Sources */,
+				BE768EF0271DC33100A4E4CF /* Frameworks */,
+				BE768EF1271DC33100A4E4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movs;
+			productName = Movs;
+			productReference = BE768EF3271DC33100A4E4CF /* Movs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE768F0B271DC33400A4E4CF /* MovsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE768F23271DC33500A4E4CF /* Build configuration list for PBXNativeTarget "MovsTests" */;
+			buildPhases = (
+				BE768F08271DC33400A4E4CF /* Sources */,
+				BE768F09271DC33400A4E4CF /* Frameworks */,
+				BE768F0A271DC33400A4E4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE768F0E271DC33400A4E4CF /* PBXTargetDependency */,
+			);
+			name = MovsTests;
+			productName = MovsTests;
+			productReference = BE768F0C271DC33400A4E4CF /* MovsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE768F15271DC33400A4E4CF /* MovsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE768F26271DC33500A4E4CF /* Build configuration list for PBXNativeTarget "MovsUITests" */;
+			buildPhases = (
+				BE768F12271DC33400A4E4CF /* Sources */,
+				BE768F13271DC33400A4E4CF /* Frameworks */,
+				BE768F14271DC33400A4E4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE768F18271DC33400A4E4CF /* PBXTargetDependency */,
+			);
+			name = MovsUITests;
+			productName = MovsUITests;
+			productReference = BE768F16271DC33400A4E4CF /* MovsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE768EEB271DC33100A4E4CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BE768EF2271DC33100A4E4CF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BE768F0B271DC33400A4E4CF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BE768EF2271DC33100A4E4CF;
+					};
+					BE768F15271DC33400A4E4CF = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BE768EF2271DC33100A4E4CF;
+					};
+				};
+			};
+			buildConfigurationList = BE768EEE271DC33100A4E4CF /* Build configuration list for PBXProject "Movs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE768EEA271DC33100A4E4CF;
+			productRefGroup = BE768EF4271DC33100A4E4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE768EF2271DC33100A4E4CF /* Movs */,
+				BE768F0B271DC33400A4E4CF /* MovsTests */,
+				BE768F15271DC33400A4E4CF /* MovsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE768EF1271DC33100A4E4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE768F06271DC33400A4E4CF /* LaunchScreen.storyboard in Resources */,
+				BE768F03271DC33400A4E4CF /* Assets.xcassets in Resources */,
+				BE768EFE271DC33100A4E4CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE768F0A271DC33400A4E4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE768F14271DC33400A4E4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE768EEF271DC33100A4E4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE768EFB271DC33100A4E4CF /* ViewController.swift in Sources */,
+				BE768EF7271DC33100A4E4CF /* AppDelegate.swift in Sources */,
+				BE768F01271DC33100A4E4CF /* Movs.xcdatamodeld in Sources */,
+				BE768EF9271DC33100A4E4CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE768F08271DC33400A4E4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE768F11271DC33400A4E4CF /* MovsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE768F12271DC33400A4E4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE768F1B271DC33400A4E4CF /* MovsUITests.swift in Sources */,
+				BE768F1D271DC33500A4E4CF /* MovsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE768F0E271DC33400A4E4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE768EF2271DC33100A4E4CF /* Movs */;
+			targetProxy = BE768F0D271DC33400A4E4CF /* PBXContainerItemProxy */;
+		};
+		BE768F18271DC33400A4E4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE768EF2271DC33100A4E4CF /* Movs */;
+			targetProxy = BE768F17271DC33400A4E4CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE768EFC271DC33100A4E4CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE768EFD271DC33100A4E4CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE768F04271DC33400A4E4CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE768F05271DC33400A4E4CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE768F1E271DC33500A4E4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE768F1F271DC33500A4E4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE768F21271DC33500A4E4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Movs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhfs.academy.cin.ufpe.br.Movs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE768F22271DC33500A4E4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Movs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhfs.academy.cin.ufpe.br.Movs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE768F24271DC33500A4E4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhfs.academy.cin.ufpe.br.MovsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movs.app/Movs";
+			};
+			name = Debug;
+		};
+		BE768F25271DC33500A4E4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhfs.academy.cin.ufpe.br.MovsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movs.app/Movs";
+			};
+			name = Release;
+		};
+		BE768F27271DC33500A4E4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhfs.academy.cin.ufpe.br.MovsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movs;
+			};
+			name = Debug;
+		};
+		BE768F28271DC33500A4E4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 23WSBM7T82;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jhfs.academy.cin.ufpe.br.MovsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE768EEE271DC33100A4E4CF /* Build configuration list for PBXProject "Movs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE768F1E271DC33500A4E4CF /* Debug */,
+				BE768F1F271DC33500A4E4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE768F20271DC33500A4E4CF /* Build configuration list for PBXNativeTarget "Movs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE768F21271DC33500A4E4CF /* Debug */,
+				BE768F22271DC33500A4E4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE768F23271DC33500A4E4CF /* Build configuration list for PBXNativeTarget "MovsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE768F24271DC33500A4E4CF /* Debug */,
+				BE768F25271DC33500A4E4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE768F26271DC33500A4E4CF /* Build configuration list for PBXNativeTarget "MovsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE768F27271DC33500A4E4CF /* Debug */,
+				BE768F28271DC33500A4E4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE768EFF271DC33100A4E4CF /* Movs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE768F00271DC33100A4E4CF /* Movs.xcdatamodel */,
+			);
+			currentVersion = BE768F00271DC33100A4E4CF /* Movs.xcdatamodel */;
+			path = Movs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE768EEB271DC33100A4E4CF /* Project object */;
+}
